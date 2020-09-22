@@ -22,3 +22,44 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# ChronoEditor
+with this application you can create a personal chronology.
+
+## Description
+with this application you can create a personal chronology.
+
+## Demo
+image/gif URL
+
+## Usage
+hoge
+
+## Requirement
+hoge
+
+## Tables
+#### users
+| Column   | Type   | Options     |
+| -------- | ------ | ----------- |
+| nickname | string | null: false |
+| email    | string | null: false |
+| password | string | null: false |
+##### Association
+- has_one :chronology
+
+#### chronologies
+| Column  | Type       | Options           |
+| ------- | ---------- | ----------------- |
+| user_id | references | foreign_key: true |
+| date    | datetime   | null: false       |
+| text    | text       | null: false       |
+##### Association
+- belongs_to :user
+
+## Licence
+hoge
+
+## Author
+[Shuichiro Saeki](https://github.com/SSaeki-jp)
