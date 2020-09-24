@@ -2,6 +2,17 @@
   <div class='header-title'>
     <h1>ChronoEditor</h1>
   </div>
+  <div class='changer-tag'>
+    <li>
+      <p class='classic'>classic<p>
+    </li>
+    <li>
+      <p class='modern'>modern</p>
+    </li>
+    <li>
+      <p class='other'>other</p>
+    </li>
+  </div>
   <div class='header-nav'>
     <% if user_signed_in? %>
       <li><%= "#{current_user.nickname}a" %></li>

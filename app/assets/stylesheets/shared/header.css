@@ -3,9 +3,9 @@
 }
 
 .top-page-header {
-  width: 100vw;
-  padding: 1vh 1vw;
-  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 2px solid #b5b5ae;
   background-color: #fffff4;
   display: flex;
   justify-content: space-between;
@@ -18,10 +18,10 @@
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  color: #432f2f;
+  color: #333333;
 }
 
 li {
@@ -29,20 +29,23 @@ li {
   font-weight: bold;
 }
 
+.changer-tag {
+  font-size: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.classic {
+  color: #ffcc00;
+  border-bottom: 5px solid #ffcc00;
+}
+
 .login {
   text-decoration: none;
-  color: azure;
-  text-shadow:
-  1px  1px 0px lightblue,
-  -1px  1px 0px lightblue,
-  1px -1px 0px lightblue,
-  -1px -1px 0px lightblue,
-  1px  0px 0px lightblue,
-  0px  1px 0px lightblue,
-  -1px  0px 0px lightblue,
-  0px -1px 0px lightblue;
-  background-color: lightskyblue;
-  border: 2px solid dodgerblue;
+  color: #333333;
+  background-color: lemonchiffon;
+  border: 2px solid #ffcc00;
   padding: 6px 9px;
   margin: 0 3px;
   border-radius: 4px;
@@ -50,9 +53,9 @@ li {
 
 .sign-up {
   text-decoration: none;
-  color: black;
-  background-color: whitesmoke;
-  border: 2px solid darkgray;
+  color: #330000;
+  background-color: #fff4f4;
+  border: 2px solid #ec6d71;
   padding: 6px 9px;
   margin: 0 3px;
   border-radius: 4px;
