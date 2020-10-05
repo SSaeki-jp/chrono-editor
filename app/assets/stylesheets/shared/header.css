@@ -5,8 +5,8 @@
 .top-page-header {
   width: 100%;
   padding: 5px 10px;
-  border-bottom: 2px solid #b5b5ae;
-  background-color: #fffff4;
+  border-bottom: 2px solid lightgray;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@ h1 {
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  color: #333333;
+  color: #464646;
 }
 
 li {
@@ -30,6 +30,7 @@ li {
 }
 
 .changer-tag {
+  color: #464646;
   font-size: 20px;
   width: 30%;
   display: flex;
@@ -37,15 +38,14 @@ li {
 }
 
 .classic {
-  color: #ffcc00;
   border-bottom: 5px solid #ffcc00;
 }
 
 .login {
   text-decoration: none;
-  color: #333333;
-  background-color: lemonchiffon;
-  border: 2px solid #ffcc00;
+  color: #464646;
+  background-color: lightgray;
+  border: 2px solid darkgray;
   padding: 6px 9px;
   margin: 0 3px;
   border-radius: 4px;
@@ -53,9 +53,9 @@ li {
 
 .sign-up {
   text-decoration: none;
-  color: #330000;
-  background-color: #fff4f4;
-  border: 2px solid #ec6d71;
+  color: #464646;
+  background-color: lightgray;
+  border: 2px solid darkgray;
   padding: 6px 9px;
   margin: 0 3px;
   border-radius: 4px;

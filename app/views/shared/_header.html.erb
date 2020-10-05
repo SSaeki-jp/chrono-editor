@@ -1,7 +1,9 @@
 <header class='top-page-header'>
-  <div class='header-title'>
-    <h1>ChronoEditor</h1>
-  </div>
+  <a href='/'>
+    <div class='header-title'>
+      <h1>ChronoEditor</h1>
+    </div>
+  </a>
   <div class='changer-tag'>
     <li>
       <p class='classic'>classic<p>
@@ -15,7 +17,7 @@
   </div>
   <div class='header-nav'>
     <% if user_signed_in? %>
-      <li><%= "#{current_user.nickname}" %></li>
+      <li><%= link_to "#{current_user.nickname}",edit_user_registration_path, class: "user-edit" %>でログイン中</li>
       <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete , class: "logout" %></li>
     <% else %>
       <li><%= link_to 'ログイン', new_user_session_path, class: "login" %></li>
