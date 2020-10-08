@@ -25,18 +25,18 @@ Things you may want to cover:
 
 
 # ChronoEditor
-with this application you can create a personal chronology.
+With this application you can create a personal chronology.
 
 ## Description
-with this application you can create a personal chronology.
+You can look back on your background, celebrate the birth of a new family, etc.
 
-## Demo
-image/gif URL
+## URL
+https://chrono-editor.herokuapp.com/
+
+## Test account
+none
 
 ## Usage
-hoge
-
-## Requirement
 hoge
 
 ## Tables
@@ -58,8 +58,17 @@ hoge
 ##### Association
 - belongs_to :user
 
-## Licence
-hoge
-
 ## Author
 [Shuichiro Saeki](https://github.com/SSaeki-jp)
+
+
+### Items to be added at a later date
+
+## Demo
+image/gif
+
+## Requirement
+hoge
+
+## Licence
+hoge
