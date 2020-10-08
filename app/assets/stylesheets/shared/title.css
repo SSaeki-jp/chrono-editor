@@ -1,0 +1,29 @@
+/* header title */
+h1 {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #464646;
+}
+
+/* footer title */
+h2 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #464646;
+}
+
+/* footer-sub-title */
+h3 {
+  font-family: 'Hiragino Sans', Times, serif;
+
+  font-size: 21px;
+}
+
+.text {
+  color: #333333;
+
+  font-family: 'Hiragino Sans', Times, serif;
+  line-height: 1.7em
+}
