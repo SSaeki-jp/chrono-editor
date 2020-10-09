@@ -1,4 +1,3 @@
-# README
 # ChronoEditor
 
 ## アプリの説明
@@ -7,6 +6,7 @@ ChronoEditorを使えば簡単に自分史を作ることができます。
 
 ## URL
 https://chrono-editor.herokuapp.com/
+（Herokuへデプロイしているため、初回アクセス時は時間がかかることがあります）
 
 ## テストアカウント
 現在はなし
